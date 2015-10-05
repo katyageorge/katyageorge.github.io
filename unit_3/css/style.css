@@ -1,0 +1,54 @@
+body {
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "Playfair Display", serif;
+}
+h1, h3, ul, li {
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+
+}
+
+h1 {
+	font-size: 60px;
+}
+p {
+	font-size: 18px;
+}
+#slogan {
+	font-style: italic;
+	font-size: 22px;
+}
+.nav {
+	list-style-type: none;
+}
+.nav li {
+	display: inline;
+}
+.nav li a {
+	text-decoration: none;
+	color: #FF0066;
+	padding: 0px 35px;
+	font-size: 14px;
+	font-weight: 600;
+}
+div {
+	width: 309px;
+	height: 309px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px
+	}
+
+#earrings {
+	background-image: url("images/earrings.jpg");
+}
+
+#necklaces {
+	background-image: url("images/necklaces.jpg");
+}
+
+#rings {
+	background-image: url("images/rings.jpg");;
+}

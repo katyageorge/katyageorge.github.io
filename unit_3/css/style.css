@@ -12,6 +12,8 @@ h1, h3, ul, li {
 
 h1 {
 	font-size: 60px;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 p {
 	font-size: 18px;
@@ -35,20 +37,14 @@ p {
 }
 div {
 	width: 309px;
-	height: 309px;
-	border: 2px solid black;
+/*	height: 309px;*/
+/*	border: 2px solid black;*/
 	display: inline-block;
-	margin: 20px
+	margin: 20px;
+/*	overflow:hidden;*/
 	}
 	
-#earrings {
-	background-image: url("images/earrings.jpg");
-}
-
-#necklaces {
-	background-image: url("images/necklaces.jpg");
-}
-
-#rings {
-	background-image: url("images/rings.jpg");;
+div img{
+	width:100%;
+	display: block;
 }

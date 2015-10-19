@@ -6,12 +6,15 @@ body {
 	font-size: 18px;
 }
 header {
+	text-align:center;
 	margin-top: 45px;
 	margin-bottom: 65px;
 }
 nav {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
+	border-top:1px solid;
+	border-bottom: 1px solid;
 }
 nav a {
 	text-decoration: none;
@@ -44,10 +47,6 @@ div p a {
 	float:left;
 	padding:1em;
 	width:33.33%;
-}
-#email {
-	margin-top: 70px;
-	margin-bottom: 30px;
 }
 .clearfix:after, .wrapper:after { 
 	content: "."; 

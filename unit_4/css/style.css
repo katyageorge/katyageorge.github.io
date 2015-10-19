@@ -1,43 +1,26 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	text-align: center;
 	background-color: #FFFFFF;
-	color: #000000;
+	color: #222;
 	font-family: "Playfair Display", serif;
+	font-size: 18px;
 }
 header {
 	margin-top: 45px;
 	margin-bottom: 65px;
 }
-ul, li {
+nav {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 }
-
-p {
-	font-size: 18px;
-}
-
-.nav {
-	list-style-type: none;
-}
-.nav li {
-	display: inline;
-}
-.nav li a {
+nav a {
 	text-decoration: none;
 	color: #E4287C;
-	padding: 0px 35px;
+	padding: 0px 3em;
 	font-size: 13.5px;
 	font-weight: 700;
 }
-div {
-	width: 309px;
-	display: inline-block;
-	margin: 20px;
-	}
-	
 div img {
-	width:100%;
 	display: block;
 }
 
@@ -53,8 +36,23 @@ div p a {
 	font-family: 'Playfair Display', serif;
 	color: #E4287C;
 }
+.wrapper {
+	max-width:1200px;
+	margin:auto;
+}
+.wrapper>* {
+	float:left;
+	padding:1em;
+	width:33.33%;
+}
 #email {
 	margin-top: 70px;
 	margin-bottom: 30px;
 }
+.clearfix:after, .wrapper:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }

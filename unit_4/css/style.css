@@ -10,6 +10,7 @@ header {
 	margin-top: 45px;
 	margin-bottom: 65px;
 }
+
 nav {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
@@ -23,7 +24,14 @@ nav a {
 	font-size: 13.5px;
 	font-weight: 700;
 }
+div {
+	width: 309px;
+	display: inline-block;
+	margin: 20px;
+	}
+	
 div img {
+	width:100%;
 	display: block;
 }
 
@@ -39,19 +47,7 @@ div p a {
 	font-family: 'Playfair Display', serif;
 	color: #E4287C;
 }
-.wrapper {
-	max-width:1200px;
-	margin:auto;
-}
-.wrapper>* {
-	float:left;
-	padding:1em;
-	width:33.33%;
-}
-.clearfix:after, .wrapper:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
+#email {
+	margin-top: 70px;
+	margin-bottom: 30px;
 }

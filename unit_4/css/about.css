@@ -1,5 +1,4 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-
 body {
 	background-color: #FFFFFF;
 	color: #222;
@@ -30,6 +29,7 @@ nav a {
 	font-size: .85em;
 	font-weight: 700;
 }
+
 div img {
 	display: block;
 }
@@ -42,33 +42,20 @@ div h3 {
 	font-weight: 600;
 }
 
-div p a {
-	font-family: 'Playfair Display', serif;
-	color: #E4287C;
-}
-
-.wrapper {
+.about {
 	max-width:1200px;
 	margin:auto;
 }
 
-.wrapper>* {
+.about>* {
 	float:left;
 	padding:1em;
-	width:33.33%;
+	width:50%;
 }
-
-.full {
-	display: block;
-	margin: auto;
-    width: 100%;
-}
-
-.clearfix:after, .wrapper:after { 
+.clearfix:after, .about:after { 
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
 	height: 0; 
 	clear: both;
 }
-

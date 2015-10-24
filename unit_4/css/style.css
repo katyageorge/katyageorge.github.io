@@ -72,3 +72,17 @@ div p a {
 	clear: both;
 }
 
+.socialize {
+	list-style-type: none;
+}
+.socialize li {
+	display: inline;
+}
+.socialize li a {
+	text-decoration: none;
+	padding: 0px 5px;
+}
+
+ul, li {
+	text-align:center;
+}

@@ -71,54 +71,51 @@ nav a {
 	padding: 0px 5px;
 }
 
+
 ul, li {
 	text-align:center;
 	padding: 10px;
 }
 
-ul.main {
+ul.rig {
 	list-style: none;
 	font-size: 0px;
 	margin-left: -2.5%;
 }
-ul.main li {
+ul.rig li {
 	display: inline-block;
 	padding: 10px;
 	margin: 0 0 2.5% 2.5%;
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
+	font-size: 1rem;
 	vertical-align: top;
 	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
-ul.main li img {
+ul.rig li img {
 	max-width: 100%;
 	height: auto;
-	margin: 0;
+	margin: 0 0 10px;
 }
 
-ul.main li h3 {
-	font-family:'Open Sans Condensed', sans-serif;
-	text-transform: uppercase;
+ul.rig li h3 {
 	margin: 0 0 5px;
 }
 
-ul.main li p {
-	font-family:'Playfair Display', serif;
-	font-size: 1em;
-	line-height: 1.5em;
-	color: #222;
-}
-
-ul.main li p a {
-	font-family:'Playfair Display', serif;
-	font-size: 1em;
+ul.rig li p {
+	font-family:'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: .9em;
 	line-height: 1.5em;
 	color: #5A8B8B;
 }
 
-ul.main.columns-3 li {
+ul.rig.columns-3 li {
 	width: 30.83%; 
 }
 
@@ -130,10 +127,10 @@ ul.main.columns-3 li {
 	ul.grid-nav li a {
 		display: block;
 	}
-	ul.main {
+	ul.rig {
 		margin-left: 0;
 	}
-	ul.main li {
+	ul.rig li {
 		width: 100% !important; 
 		margin: 0 0 20px;
 	}

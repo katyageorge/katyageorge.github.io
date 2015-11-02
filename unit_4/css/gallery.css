@@ -50,16 +50,14 @@ nav a {
 	margin-bottom: .5em;
 }
 .product-previews {
-	width: 300px;
-	margin-right: .5%;
+	width: 24%;
+	margin: .5%;
 	float: left;
-	display: inline-block;
 }
 
 .product-previews img {
 	margin: 0;
 	width: 100%;
-	float: left;
 }
 
 .product-previews h3 {

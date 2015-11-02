@@ -41,7 +41,9 @@ div h3 {
 	color: #000000;
 	font-weight: 600;
 }
-
+figure img {
+	width:100%;
+}
 .about {
 	max-width:1200px;
 	margin:auto;

@@ -1,4 +1,5 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+
 body {
 	background-color: #FFFFFF;
 	color: #222;
@@ -30,39 +31,58 @@ nav a {
 	font-weight: 700;
 }
 
-div img {
+.body-wrapper-shopall {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.product-cat {
+	width: 100%;
+	margin: 1em auto 2em auto;
+	padding: 0;
 	display: block;
 }
 
-div h3 {
+.product-cat h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
-	font-size: 22px;
-	color: #000000;
-	font-weight: 600;
+	text-decoration: none;
+	margin-bottom: .5em;
+}
+.product-previews {
+	width: 300px;
+	margin-right: .5%;
+	float: left;
+	display: inline-block;
 }
 
-.about {
-	max-width:1200px;
-	margin:auto;
+.product-previews img {
+	margin: 0;
+	width: 100%;
+	float: left;
 }
 
-.about>* {
-	float:left;
-	padding:1em;
-	width:50%;
+.product-previews h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
 }
-.clearfix:after, .about:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
+
+.product-previews h3 a {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
 	clear: both;
 }
 
 .socialize {
 	list-style-type: none;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 .socialize li {
 	display: inline;
@@ -75,4 +95,3 @@ div h3 {
 ul, li {
 	text-align:center;
 }
-

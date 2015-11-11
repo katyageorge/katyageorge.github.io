@@ -161,6 +161,10 @@ ul {
 		font-size: 95%;
 	} 
 
+	div h3 {
+	font-size: 1.3em;
+	}
+
 	#tag div {
 	text-transform: uppercase;
 	font-size: 1.2em;

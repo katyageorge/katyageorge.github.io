@@ -256,7 +256,8 @@ ul {
 	}
 
 	.about h2 {
-		text-align: center;
+	font-size: 1.3em;
+	text-align: center;
 	}
 
 	.product-cat>* {
@@ -268,16 +269,16 @@ ul {
 	}
 
 	.product-cat h1 {
-		font-size: 2em;
+		font-size: 1.75em;
 		margin: -2% auto -1% auto;
 	}
 
 	.product-cat h3 {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
 	.service h2 {
-	font-size: 1.5em;
+	font-size: 1.3em;
 
 	.service h3 {
 	margin-bottom: -1em;

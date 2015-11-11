@@ -52,7 +52,11 @@ nav a {
 
 .product-previews {
 	width: 24%;
+<<<<<<< HEAD
 	margin-right: .5%;
+=======
+	margin: .5%;
+>>>>>>> origin/master
 	float: left;
 }
 

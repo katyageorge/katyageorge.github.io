@@ -48,6 +48,7 @@ div h3 {
 	font-size: 18px;
 	color: #E4287C;
 }
+<<<<<<< HEAD
 
 figure img {
 	width: 100%;
@@ -57,6 +58,10 @@ figcaption {
 	font-weight: 600;
 	text-align: center;
 	margin-top: 1em;
+=======
+figure img {
+	width:100%;
+>>>>>>> origin/master
 }
 .about {
 	max-width:1200px;

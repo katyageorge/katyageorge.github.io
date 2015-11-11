@@ -1,0 +1,211 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #FFFFFF;
+	color: #222;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+}
+
+header {
+	text-align:center;
+	margin: 3%;
+}
+
+nav {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align:center;
+	text-transform: uppercase;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-top:.07em solid;
+	border-bottom: .07em solid;
+	line-height: 2em;
+}
+nav a {
+	text-decoration: none;
+	color: #E4287C;
+	padding: .07em 2em;
+	font-size: 1em;
+	font-weight: 700;
+}
+div img {
+	display: block;
+}
+
+div h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #000000;
+	font-weight: 600;
+}
+
+div p a {
+	font-family: 'Playfair Display', serif;
+	color: #E4287C;
+}
+
+.feature_image {
+  margin: 2% auto 1% auto;
+  display: block;
+  width: 93%;
+}
+
+.feature_image>* {
+	padding:1%;
+	width:100%;
+}
+
+.clearfix:after, .feature_image:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.wrapper {
+	width:95%;
+	margin:auto;
+}
+
+.wrapper>* {
+	float:left;
+	padding:2%;
+	width:33.33%;
+}
+
+
+.clearfix:after, .wrapper:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.paragraph {
+width:95%;
+margin:auto;
+}
+
+.paragraph>* {
+	float:left;
+	padding:2%;
+	width:50%;
+}
+
+.clearfix:after, .paragraph:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.boxed {
+  border: .2em solid black;
+  text-align: center;
+  margin: 2% auto 3% auto;
+  display: block;
+  width: 93%;
+  padding: 6em;
+}
+
+.boxed p {
+	font-family: 'Abril Fatface'
+}
+
+#tag div {
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+
+#quote div {
+	font-size: 2.5em;
+	margin: 1.5em auto 1.5em auto;
+}
+
+#author div {
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+.socialize {
+	list-style-type: none;
+	margin-top: .6em;
+}
+
+.socialize li {
+	display: inline;
+}
+
+.socialize li a {
+	text-decoration: none;
+	padding: 0em .3em;
+}
+
+ul {
+	text-align:center;
+	margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 980px) {
+
+	header img {
+    width: 65%;
+  	}
+
+  	nav, nav a {
+		font-size: 95%;
+	} 
+
+	#tag div {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	}
+
+	#quote div {
+	font-size: 2.1em;
+	margin: 1.5em auto 1.5em auto;
+	}
+
+	#author div {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+
+	header img {
+    width: 100%;
+  	}
+
+	nav, nav a {
+		display: block;
+		text-align: center;
+		padding: 1%;
+	}
+
+	.paragraph>* {
+	float:none;
+	width:100%;
+	}
+
+	#tag div {
+	text-transform: uppercase;
+	font-size: 1em;
+	}
+
+	#quote div {
+	font-size: 2em;
+	margin: 1.5em auto 1.5em auto;
+	}
+
+	#author div {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	}
+}	

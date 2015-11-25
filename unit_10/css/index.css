@@ -78,7 +78,7 @@ div p a {
 
 .wrapper {
 	margin:auto;
-}
+}	
 
 .wrapper>* {
 	float:left;
@@ -139,8 +139,10 @@ figcaption {
 }
 
 .about {
-	max-width:95%;
-	margin: 1% auto 1% auto
+	max-width:75em;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .about>* {
@@ -155,8 +157,10 @@ figcaption {
 }
 
 .body-wrapper-shopall {
-	max-width: 95%;
-	margin: 1% 2% 3% 4%;
+	max-width: 75em;
+	margin: auto;
+	margin-top: 2.5em;
+	margin-bottom: 1.5em;
 }
 
 .product-cat {
@@ -176,8 +180,9 @@ figcaption {
 }
 
 .product-previews {
-	width: 24%;
-	margin-right: .5%;
+	width: 30%;
+	margin-right: 1.5%;
+	margin-bottom: 2em;
 	float: left;
 }
 
@@ -188,8 +193,9 @@ figcaption {
 .product-previews h3 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
-	font-size: 1em;
+	font-size: 1.1em;
 	color: #222;
+	margin-top: .5em;
 
 	text-decoration: none;
 }
@@ -199,8 +205,9 @@ figcaption {
 }
 
 .service {
-	max-width:95%;
-	margin: 1% auto 1% auto
+	max-width:50em;
+	margin: auto;
+	margin-bottom: 2em;
 }
 
 .service h3 {
@@ -302,7 +309,6 @@ ul {
 
 	.body-wrapper-shopall {
 		max-width: 95%;
-		margin: 1% 2% 3% 4%;
 	}
 
 	.product-cat h1 {
@@ -312,6 +318,10 @@ ul {
 		text-decoration: none;
 		margin-top: 1em;
 		margin-bottom: .5em;
+	}
+
+	.product-previews h3 {
+		font-size: .9em;
 	}
 
 	.service h2 {

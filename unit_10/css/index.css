@@ -389,6 +389,11 @@ ul {
 		text-align: center;
 	}
 
+	script {
+		width:100%;
+		text-align: center;
+	}
+
 	.product-cat>* {
 		float:none;
 		padding: 1em;
@@ -396,6 +401,8 @@ ul {
 		margin-bottom: 0;
 		text-align: center;
 	}
+
+	
 
 	.product-cat h1 {
 		font-size: 1.75em;
@@ -408,6 +415,7 @@ ul {
 
 	.service h2 {
 		font-size: 1.3em;
+	}
 
 	.service h3 {
 		margin-bottom: -1em;

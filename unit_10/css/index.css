@@ -60,6 +60,8 @@ div p a {
 .container {
 	max-width:75em;
 	margin:auto;
+	margin-top: 2em;
+	margin-bottom: 2.5em;
 }
 
 .feature_image {
@@ -165,7 +167,8 @@ figcaption {
 
 .product-cat {
 	width: 100%;
-	margin: 2% auto; 
+	margin: auto;
+	margin-top: 2%; 
 	padding: 0;
 	display: block;
 }
@@ -180,7 +183,7 @@ figcaption {
 }
 
 .product-previews {
-	width: 30%;
+	width: 31.83%;
 	margin-right: 1.5%;
 	margin-bottom: 2em;
 	float: left;
